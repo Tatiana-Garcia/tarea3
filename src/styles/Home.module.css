@@ -166,3 +166,70 @@ a.secondary {
     filter: invert();
   }
 }
+
+
+
+.main {
+  background: rgb(30,30,30);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+.taskCreator {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12;
+}
+
+.createButton {
+  padding: 10px 15px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.createButton:hover {
+  background-color: #4d4d4d;
+}
+
+.taskList {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin-bottom:10;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  width: 74%;
+}
+
+.deleteButton {
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.deleteButton:hover {
+  background-color: #4d4d4d;
+}
+
